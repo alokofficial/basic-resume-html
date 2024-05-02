@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.container{
+background-color: rgba(128, 128, 128, 0.389);
+margin: 10px;
+/* height: 100vh; */
+padding: 20px;
+display: flex;
+justify-content:center;
+
+}
+/* left Part####___________________________________________________________________________________________________ */
+
+.left-container{
+  width: 25em;
+  padding: 30px;
+  background-color: rgb(84, 133, 116);
+  color: whitesmoke;
+  box-sizing: border-box;
+}
+
+.image-name-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-name-info img{
+  width: 12em;
+  border-radius: 50%;
+  margin: 10px;
+}
+.image-name-info ul{
+list-style-position: inside;
+}
+.image-name-info h1{
+}
+.image-name-info h3{
+}
+/* hr{
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.363);
+  box-sizing: border-box;
+} */
+.summary-container{
+}
+.summary-container p{
+  text-align: justify;
+}
+.education-container{
+  margin: 5px;
+  list-style-position: inside;
+}
+.certificate-container{
+  margin: 5px;
+  list-style-position: inside;
+}
+.award-container{
+  margin: 5px;
+  list-style-position: inside;
+}
+.left {
+  width: 100%;
+  border: 2px solid rgba(241, 241, 241, 0.363);
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+/*Right Part## _____________________________________________________________________________________________ */
+
+.right-container{
+  padding: 30px;
+  width: 40em;
+  background-color: azure;
+  box-sizing: border-box;
+  color: black;
+}
+.skill-container ul{
+  
+  display:flex;
+  gap: 13px;
+  list-style-type: ",";
+  list-style-position:inside;
+  flex-wrap: wrap;
+  line-height: 9px;
+  padding: 15px;
+  
+}
+.skill-container{
+  margin: 5px;
+}
+.professional-experience{
+  list-style-position:inside;
+  margin: 5px;
+}
+.technical-proficiency{
+  list-style-position:inside;
+  margin: 5px;
+}
+.development-activities{
+  margin: 5px;
+}
+.right{
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.267);
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.download button{
+  font-size: 80px;
+  position:fixed;
+  top: 100px;
+  right: 100px;
+  border: 20px solid transparent;
+  border-radius: 50%;
+}
